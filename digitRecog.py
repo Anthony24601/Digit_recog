@@ -90,7 +90,7 @@ model.add(Dense(num_classes,activation='softmax')) #softmax used to classify the
 #=============================================================================================#
 #Compile and Train Model
 
-#sparce_categorical_crossentropy is a loss function used just incase we have a integer dependent variable
+#categorical_crossentropy is a loss function used since we have an output that will be a vector variable
 #'adam' is an optimizer used for Stochastic Optimization
 model.compile(loss='categorical_crossentropy',optimizer='adam',metrics=['accuracy'])
 
