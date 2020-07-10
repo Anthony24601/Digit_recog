@@ -108,7 +108,6 @@ model.save('test_model.h5')
 #=============================================================================================#
 #Testing
 import imageio
-#Can't import for some reason????????????????
 import numpy as np
 
 im = imageio.imread("https://i.imgur.com/a3Rql9C.png")
